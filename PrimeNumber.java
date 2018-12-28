@@ -21,11 +21,11 @@ package MyPack;
 		   }
 		       if(flag == 0)
 			    {
-			    	System.out.println(number+"prime number");
+			    	System.out.println(number+"is a prime number");
 			    }
 			    else
 			    {
-			    	System.out.println(number+"not prime number");
+			    	System.out.println(number+"is not a prime number");
 			    }
 			}
 			
