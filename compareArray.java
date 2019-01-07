@@ -12,9 +12,9 @@ public class compareArray {
 
 
 	public static void main(String[] args) {
-		int[] oldarray= {1,2,3,4,5};
-		int[] oldarray1= {1,2,3,4,5,6};
-		if(oldarray.length>oldarray1.length)
+		int[] oldarr= {7,8,9,4,5};
+		int[] oldarr1= {7,8,9,4,5,6};
+		if(oldarr.length>oldarr1.length)
 		{
 			
 			printarray(oldarray);

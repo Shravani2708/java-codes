@@ -16,16 +16,19 @@ public class armstrong {
 			rem=n%10;
 			num=num+ rem*rem*rem;
 			n=n/10;
+			System.out.println(n);
 			
 		}
 		 if (num == temp)
 
 		 {
-			 System.out.println(  "output is true");
+			 System.out.println( "output is true");
+			 System.out.println("Armstrong Number");
 		 }
 		 else
 		 {
-			 System.out.println( " output is false");
+			 System.out.println( "output is false");
+			 System.out.println(" Not Armstrong Number");
 		 }
 	}
 
